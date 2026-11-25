@@ -1,0 +1,1 @@
+-dpcvars="r.VSync=0,a.UseSwappyForFramePacing=0,r.pso.CreateOnRHIThread=0,r.MSAACount=1,Fort.Mobile.EnableThermalThrottling=0,Fort.Mobile.AllowThermalThrottling=0,Fort.Mobile.120FPS.MaxQuality=0,Fort.Mobile.120FPS.MaxResQuality=100,sg.ShadowQuality=0,sg.FoliageQuality=0"
