@@ -11,7 +11,7 @@ CONF_FILE="/data/data/com.epicgames.fortnite/files/UnrealGame/FortniteGame/Fortn
 
 if [ -f "$PID_FILE" ]; then
     OLD_PID=$(cat "$PID_FILE" 2>/dev/null)
-    if [ -n "$OLD_PID" ] && [ "$OLD_PID" != "$$" ] && kill -0 "$OLD_PID" 2>/dev/null; then
+    if [ -n "$OLD_PID" ] && [ "$OLD_PID" != "$$" ] && kill -0 "$OLD_PID" 2>/dev/null && grep -q "fortnite_watcher.sh" "/proc/$OLD_PID/cmdline" 2>/dev/null; then
         exit 0
     fi
 fi

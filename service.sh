@@ -30,6 +30,7 @@ fi
 
 # Spawn state-driven watcher with single-instance watchdog
 if [ -f "$MODDIR/scripts/fortnite_watcher.sh" ]; then
+    rm -f /data/local/tmp/fortnite_120hz_boost.pid 2>/dev/null
     (
         while :; do
             if [ ! -f "$MODDIR/scripts/fortnite_watcher.sh" ] || [ -f "$MODDIR/disable" ] || [ -f "$MODDIR/remove" ]; then
