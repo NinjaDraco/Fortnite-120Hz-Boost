@@ -1,7 +1,7 @@
 id=fortnite_120hz_boost
 name=Fortnite 120Hz Boost & CPU Optimizer (OnePlus Pad 3 / OPD2415)
-version=v1.0.0
-versionCode=100
+version=v1.0.1
+versionCode=101
 author=NinjaDraco
 description=OnePlus Pad 3 (OPD2415 / SM8750) Fortnite 120Hz lock (144Hz->120Hz thermal & refresh_rate_config fix), CPU/scx/cpuset/uclamp tuning, CE-safe INI overrides, and low-overhead state watcher. Fully compatible with OnePlus-Pad-90W-Smart-Charge.
 updateJson=https://raw.githubusercontent.com/NinjaDraco/Fortnite-120Hz-Boost/main/update.json

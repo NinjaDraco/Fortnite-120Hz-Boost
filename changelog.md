@@ -1,5 +1,10 @@
 # Fortnite 120Hz Boost & CPU Optimizer - Changelog
 
+## [v1.0.1] - 2026-11-28
+
+- **Fix Post-Reboot PID Reuse**: Clears stale `fortnite_120hz_boost.pid` in `service.sh` and verifies `/proc/$OLD_PID/cmdline` in `fortnite_watcher.sh` so an unrelated post-reboot PID never blocks watcher startup.
+- **SukiSU / KernelSU Verified**: Tested and verified under SukiSU (`ksud`) alongside `OnePlus-Pad-90W-Smart-Charge` `v3.4.2`.
+
 ## [v1.0.0] - 2026-11-25
 
 - Initial release for OnePlus Pad 3 (`OPD2415` / Snapdragon 8 Elite `SM8750`).

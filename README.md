@@ -25,9 +25,9 @@ Dedicated Magisk / KernelSU / APatch module for **OnePlus Pad 3 (`OPD2415` / Sna
 ## Installation
 
 > [!IMPORTANT]
-> Download **`release/Fortnite_120Hz_Boost_v1.0.0.zip`** from the [Releases page](https://github.com/NinjaDraco/Fortnite-120Hz-Boost/releases) or `release/` folder.
+> Download **`release/Fortnite_120Hz_Boost_v1.0.1.zip`** from the [Releases page](https://github.com/NinjaDraco/Fortnite-120Hz-Boost/releases) or `release/` folder.
 > Do **not** use GitHub's green `Code -> Download ZIP` archive for flashing.
 
-1. Flash `Fortnite_120Hz_Boost_v1.0.0.zip` in **Magisk** / **KernelSU** / **APatch**.
+1. Flash `Fortnite_120Hz_Boost_v1.0.1.zip` in **Magisk** / **KernelSU** / **APatch**.
 2. (Recommended) Use alongside **OnePlus-Pad-90W-Smart-Charge v3.4.0+** for 90W smart charging, speaker boost, and automatic `FORTNITE_BYPASS` handoff.
 3. Reboot your tablet.
